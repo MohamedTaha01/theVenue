@@ -29,7 +29,7 @@ const TimeUntil = () => {
     }
   }, []);
   useEffect(() => {
-    setInterval(() => getTimeUntil("May,5,2023, 01:30:00"), 1000);
+    setInterval(() => getTimeUntil("May,5,2026, 01:30:00"), 1000);
   }, [getTimeUntil]);
   return (
     <Slide left delay={500} triggerOnce>
